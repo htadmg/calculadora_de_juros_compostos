@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos/principal.css">
+    <title>Calculadora de Juros Compostos</title>
+  </head>
+  <body>
+    <main>
+        <section>
+          <h1>Calculadora de Juros Compostos</h1>
+            <form id="calculadora">
+                <div class="form-group">
+                    <label for="capital" class="form-label">Capital</label>
+                    <input type="number" class="form-control" id="capital">
+                </div>
+    
+                <div class="form-group">
+                    <label for="taxa" class="form-label">Taxa de Juros (%)</label>
+                    <input type="number" class="form-control" id="taxa">
+                </div>
+    
+                <div class="form-group">
+                    <label for="meses" class="form-label">Meses</label>
+                    <input type="number" class="form-control" id="meses">
+                </div>
+                <p><span id="montante"></span></p>
+
+                <button class="btn">Calcular</button>
+                <button type="reset" class="btn limpar">Limpar</button>
+            </form>
+        </section>        
+    </main>
+    
+    <script src="/scripts/calcular.js"></script>
+  </body>
+</html>
