@@ -1,5 +1,6 @@
 # Calculadora de Juros Compostos
 
+## Descrição do Projeto
 Este projeto é uma aplicação web simples que permite calcular o montante final de um investimento utilizando a fórmula de juros compostos. A aplicação foi desenvolvida utilizando HTML, CSS e JavaScript.
 
 ## Funcionalidades
@@ -14,14 +15,25 @@ Este projeto é uma aplicação web simples que permite calcular o montante fina
 - **CSS3:** Estilização da interface do usuário.
 - **JavaScript:** Lógica para cálculo de juros compostos e manipulação do DOM.
 
-## Como Utilizar
+## Como Configurar o Projeto
 
-1. Clone este repositório para a sua máquina local.
-2. Abra o arquivo `index.html` em qualquer navegador da web.
-3. Preencha os campos de **Capital**, **Taxa de Juros (%)**, e **Meses**.
-4. Clique em **Calcular** para ver o montante final.
-5. Utilize o botão **Limpar** para reiniciar os valores.
+Para executar este projeto localmente, siga os passos abaixo:
 
-## Licença
+1. **Clone o Repositório**
+- Usando HTTPS:
+```bash
+git clone https://github.com/htadmg/calculadora_de_juros_compostos.git
+```
+- Usando SSH:
+```bash
+git clone git@github.com:htadmg/calculadora_de_juros_compostos.git
+```
+- Navegue até o diretório do projeto:
+```bash
+cd .\calculadora_de_juros_compostos
+```
+2. **Abra o arquivo index.html no seu navegador**
+- Preencha os campos de **Capital**, **Taxa de Juros (%)**, e **Meses**.
+- Clique em **Calcular** para ver o montante final.
+- Utilize o botão **Limpar** para reiniciar os valores.
 
-Este projeto é de domínio público e pode ser utilizado livremente.
